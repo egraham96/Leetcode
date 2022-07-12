@@ -17,5 +17,5 @@ var longestCommonPrefix = function(strs) {
 	}
 	return ans;
 };
-/*The Time Complexity of Approach 3 is ?/*
-/*The Space Complexity of Approach 3 is ?*/
+/*The Time Complexity of Approach 1 is ?/*
+/*The Space Complexity of Approach 1 is ?*/
