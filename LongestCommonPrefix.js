@@ -2,20 +2,16 @@
 
 //Approach 1: 
 var longestCommonPrefix = function(strs) {
-    let ans = "";
-
-	for(let i=0; i<strs[0].length; i++){
-		let curr = strs[0][i];
-
-		for(let j=1; j<strs.length; j++){
-			if(strs[j][i] !== curr){
-				return ans;
-			}
-		}
-
-		ans += curr;
+	if (strs.length === 0){
+		return "";
 	}
-	return ans;
-};
+    let prefix = strs[0];
+	for(let i=1; i<strs.length; i++){
+		while(strs[i].indexOf(prefix) != 0){
+
+		}
+	}
+
+}
 /*The Time Complexity of Approach 1 is ?/*
 /*The Space Complexity of Approach 1 is ?*/

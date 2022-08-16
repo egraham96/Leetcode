@@ -1,6 +1,6 @@
 
 
-//Approach 1
+//Approach 1:
 var removeDuplicates = function (nums) {
     let i = 0;
     for (let j = 0; j < nums.length; j++) {
