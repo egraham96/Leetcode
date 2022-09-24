@@ -16,4 +16,4 @@ var deleteDuplicates = function(head) {
 var head = [1,1,2,3,3];
 deleteDuplicates(head);
 //Time Complexity: O(n), because each node in the list is checked exactly once to determine if it is a duplicate or not, the total run time is O(n), where n is the number of nodes in the list.
-//Space Complexity: O(1). No additional space is used.
+//Space Complexity: O(1), no additional space is used.
